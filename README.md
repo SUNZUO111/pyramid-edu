@@ -39,26 +39,7 @@ pyramid-edu/
 }
 ```
 
-## 发布到 GitHub（SUNZUO111）
-> 需要你本机已登录 GitHub 或准备好个人访问令牌（PAT）
 
-- 方式 A（GitHub CLI，推荐）：
-  1. 在 `pyramid-edu` 目录运行：  
-     `gh repo create SUNZUO111/pyramid-edu --public --source . --remote origin --push`
-  2. 完成后访问仓库：`https://github.com/SUNZUO111/pyramid-edu`
-
-- 方式 B（Git + PAT）：
-  1. 在 GitHub 新建空仓库 `pyramid-edu`
-  2. 本地初始化并推送：  
-     ```
-     git init
-     git add .
-     git commit -m "init: pyramid education trainer"
-     git branch -M main
-     git remote add origin https://github.com/SUNZUO111/pyramid-edu.git
-     git push -u origin main
-     ```
-  3. 首次推送会提示登录或使用 PAT
 
 ## 常见问题
 - 无法评分：确保填写了“结论 + 分点 + 证据”，尝试点击“评分与提纲”
