@@ -109,7 +109,7 @@ function openCase(id) {
         <p class="desc">${c.context}</p>
         <div class="form">
           <div>
-            <label>你的金字塔输出</label>
+            <label>你的练习输出</label>
             <textarea id="inputText" rows="10" placeholder="结论先行 + 3-5 个分点（每点附证据）">${saved}</textarea>
             <div class="actions">
               <button id="btnScore" class="btn primary">评分与提纲</button>
